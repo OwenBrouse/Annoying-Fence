@@ -25,4 +25,3 @@ for i in range(len(boards)):
   for j in range(len(lHeights)):
     if boards[i] == lHeights[j]:
       boardTypes[j].append(boards[i])
-print(boardTypes)
